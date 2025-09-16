@@ -8,8 +8,7 @@ subtraction = number1 - number2
 multiplication = number1 * number2
 
 # Print results
-print(f"Addition of {number1} and {number2} is {addition}")
-print(f"Subtraction of {number1} and {number2} is {subtraction}")
-print(f"Multiplication of {number1} and {number2} is {multiplication}")
-PY
+print(Addition of 10 and 5 is 15)
+print(Subtraction of 10 and 5 is 5)
+print(Multiplication of 10 and 5 is 50) 
 
