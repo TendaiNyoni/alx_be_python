@@ -9,14 +9,14 @@ def recommend(weather):
     """
     Return a clothing recommendation string based on the provided weather string.
     """
-    if weather.lower()== 'sunny':
-        return "Wear a t-shirt and sunglasses."
+    if weather.lower() == 'sunny':
+        print("Wear a t-shirt and sunglasses.")
     elif weather.lower() == 'rainy':
-        return "Don't forget your umbrella and a raincoat."
+        print("Don't forget your umbrella and a raincoat.")
     elif weather.lower == 'cold':
-        return "Make sure to wear a warm coat and a scarf."
+        print("Make sure to wear a warm coat and a scarf.")
     else:
-        return "Sorry, I don't have recommendations for this weather."
+        print("Sorry, I don't have recommendations for this weather.")
 
 def main():
     weather = input("What's the weather like today? (sunny/rainy/cold): ").strip()
