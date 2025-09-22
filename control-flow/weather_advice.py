@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 """
 weather_advice.py
 ALX Backend: conditional statements exercise.
