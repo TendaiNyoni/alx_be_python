@@ -18,4 +18,3 @@ class Book:
     def __repr__(self):
         """Official representation: recreates the Book instance"""
         return f"Book('{self.title}', '{self.author}', {self.year})"
-
